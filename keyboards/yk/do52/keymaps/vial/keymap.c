@@ -15,7 +15,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB,   KC_Q,     KC_W,     KC_E,     KC_R,     KC_T,                             KC_Y,     KC_U,      KC_I,     KC_O,      KC_P,     KC_BSPC,
         KC_LCTL,  KC_A,     KC_S,     KC_D,     KC_F,     KC_G,                             KC_H,     KC_J,      KC_K,     KC_L,      KC_SCLN,  KC_QUOT,
         KC_LSFT,  KC_Z,     KC_X,     KC_C,     KC_V,     KC_B,                             KC_N,     KC_M,      KC_COMM,  KC_DOT,    KC_SLSH,  KC_BSLS,
-        KC_LGUI,  KC_LALT,  XXXXXXX,  XXXXXXX,  RALT_T(KC_LNG2),LT(1,KC_SPC),               LT(2,KC_ENT),LALT_T(KC_LNG1),XXXXXXX, XXXXXXX, KC_RALT,  KC_APP,
+        KC_LGUI,  KC_LALT,  XXXXXXX,  XXXXXXX,  LT(1,KC_LNG2),RALT_T(KC_SPC),               LALT_T(KC_ENT),LT(2,KC_LNG1),XXXXXXX, XXXXXXX, KC_RALT,  KC_APP,
         XXXXXXX,
         KC_MS_WH_UP,  KC_MS_WH_LEFT,  KC_MS_BTN1, KC_MS_WH_RIGHT, KC_MS_WH_DOWN,  //left stick UP LEFT CENTER RIGHT DOWN
         KC_MS_BTN1,   KC_MS_BTN2,     KC_MS_BTN1, KC_MS_BTN2,     KC_MS_BTN1,     //right stick
