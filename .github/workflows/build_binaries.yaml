@@ -12,6 +12,7 @@ jobs:
     with:
       qmk_repo: vial-kb/vial-qmk
       qmk_ref: vial
+      preparation_command: "cp -rf keyboards/yk/ qmk_firmware/keyboards/"
 
   publish:
     name: 'QMK Userspace Publish'
