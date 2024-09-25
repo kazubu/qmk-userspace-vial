@@ -29,7 +29,7 @@
     },
     "split": {
         "enabled": true,
-        "main": "left",
+        "main": "right",
         "usb_detect": {
           "enabled": true
         },
